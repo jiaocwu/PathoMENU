@@ -1,0 +1,43 @@
+{
+  "model": "PathoMENU",
+  "checkpoint": "pathomenu_maf_frequency_identity40_epoch029.pth",
+  "method": "smooth6_natural_lowtail_followed_by_constrained_monotonic_pchip",
+  "params": {
+    "a": 1.88759358,
+    "b": -0.66914932,
+    "gamma_left": 4.075,
+    "gamma_right": 5.76,
+    "tail_left": 0.02063574,
+    "tail_right": 2.8
+  },
+  "monotonic_pchip": {
+    "x_knots": [
+      0.0,
+      0.001,
+      0.125,
+      0.25,
+      0.32803870571304994,
+      0.5,
+      0.6896471916103335,
+      0.75,
+      0.875,
+      0.98,
+      0.995,
+      1.0
+    ],
+    "y_knots": [
+      0.0,
+      0.01,
+      0.12039072,
+      0.24000168,
+      0.3370523922322272,
+      0.51504018,
+      0.6670519800002579,
+      0.79484552,
+      0.882,
+      0.966,
+      0.99995,
+      1.0
+    ]
+  }
+}

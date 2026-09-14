@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+predictions.csv
+!example/predictions.csv
+/tools/*
+!/tools/.gitkeep
+/weights/pretrained/*
+!/weights/pretrained/.gitkeep
