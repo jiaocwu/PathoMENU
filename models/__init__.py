@@ -1,4 +1,4 @@
 
-from .pathomenu import PathoMENU
+from .PathoMENU import PathoMENU
 
 __all__ = ["PathoMENU"]

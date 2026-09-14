@@ -28,15 +28,15 @@ if str(PACKAGE_ROOT) not in sys.path:
     sys.path.insert(0, str(PACKAGE_ROOT))
 
 from feature_generation.local_structure_utils import FIRST_COORDINATION_THRESHOLD, METAL_ELEMENTS, SECOND_COORDINATION_THRESHOLD, mutation_coordination_metals
-from models.pathomenu import PathoMENU
+from models.PathoMENU import PathoMENU
 from models.structure_encoder import PathoMENUStructureEncoder
 from scripts.generate_prediction_features import generate_features
 from scripts.dataloader import PredictionPairDataset, graph_pair_collate
 from scripts.score_calibration import apply_pathomenu_calibration, load_calibration_parameters
 
 
-CHECKPOINT_PATH = PACKAGE_ROOT / "weights" / "pathomenu_weight.pth"
-CALIBRATION_PATH = PACKAGE_ROOT / "scripts" / "pathomenu_smooth6_pchip.json"
+CHECKPOINT_PATH = PACKAGE_ROOT / "weights" / "PathoMENU_weight.pth"
+CALIBRATION_PATH = PACKAGE_ROOT / "scripts" / "PathoMENU_smooth6_pchip.json"
 DEFAULT_FEATURE_DIR = PACKAGE_ROOT / "features"
 STRUCTURE_PARAMETERS = {
     "input_dim": 1280,

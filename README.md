@@ -26,16 +26,16 @@ source install.sh
 
 The following third-party packages are required to generate PathoMENU features:
 
-1. **FoldX**   
+1. **FoldX**<br>
    Download from [FoldX](https://foldxsuite.crg.eu/) and place the executable at `tools/foldx`.
 
-2. **Foldseek** 
+2. **Foldseek**<br>
    Download from [Foldseek](https://github.com/steineggerlab/foldseek) and place the executable at `tools/foldseek`.
 
-3. **ESM1v** 
+3. **ESM1v**<br>
    Download [`esm1v_t33_650M_UR90S_1.pt`](https://dl.fbaipublicfiles.com/fair-esm/models/esm1v_t33_650M_UR90S_1.pt) to `weights/pretrained/esm1v_t33_650M_UR90S_1.pt`.
 
-4. **SaProt**  
+4. **SaProt**<br>
    Download [`SaProt_650M_AF2`](https://huggingface.co/westlake-repl/SaProt_650M_AF2) to `weights/pretrained/SaProt_650M_AF2/`.
 
 
