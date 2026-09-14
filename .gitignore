@@ -1,9 +1,0 @@
-__pycache__/
-*.py[cod]
-predictions.csv
-!example/predictions.csv
-/features/
-/tools/*
-!/tools/.gitkeep
-/weights/pretrained/*
-!/weights/pretrained/.gitkeep
