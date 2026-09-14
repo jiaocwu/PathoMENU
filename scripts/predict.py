@@ -31,7 +31,7 @@ from feature_generation.local_structure_utils import FIRST_COORDINATION_THRESHOL
 from models.pathomenu import PathoMENU
 from models.structure_encoder import PathoMENUStructureEncoder
 from scripts.generate_prediction_features import generate_features
-from scripts.prediction_dataset import PredictionPairDataset, graph_pair_collate
+from scripts.dataloader import PredictionPairDataset, graph_pair_collate
 from scripts.score_calibration import apply_pathomenu_calibration, load_calibration_parameters
 
 

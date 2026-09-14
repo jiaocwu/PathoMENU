@@ -58,7 +58,7 @@ Here, `pdb_id` is the file name containing the protein-metal ion complex structu
 Run the following command to obtain PathoMENU predictions:
 
 ```commandline
-python scripts/predict_variants.py ./example/inputs.csv
+python scripts/predict.py ./example/inputs.csv
 ```
 
 The results are saved to `./example/predictions.csv`.
