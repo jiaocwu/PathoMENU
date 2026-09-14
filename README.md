@@ -1,12 +1,7 @@
 # PathoMENU
 
-***
 
-## Predicting the pathogenicity of metal-binding site variants with sequence and structure features
-
-***
-
-PathoMENU is a deep learning framework for predicting the pathogenicity of missense variants associated with protein metal binding. It uses a dual-view equivariant geometric encoder for precise structural modeling and a modality contribution-aware fusion strategy to adaptively integrate structural and sequence representations
+PathoMENU is a framework for accurately predicting the pathogenicity of mutations at metal ion-binding residues. This framework is built on the principle of jointly modeling local coordination geometry with global protein architecture through dual-view geometric equivariant graph neural network, and integrating sequence information and multi-scale structural context through modality contribution-aware fusion mechanism.
 
 ## Step 1: Get PathoMENU
 
@@ -31,16 +26,16 @@ source install.sh
 
 The following third-party packages are required to generate PathoMENU features:
 
-1. **FoldX** — generates mutant protein structures.  
-   Download from [FoldX Suite](https://foldxsuite.crg.eu/) and place the executable at `tools/foldx`.
+1. **FoldX**   
+   Download from [FoldX](https://foldxsuite.crg.eu/) and place the executable at `tools/foldx`.
 
-2. **Foldseek** — generates structure-aware sequences for SaProt.  
+2. **Foldseek** 
    Download from [Foldseek](https://github.com/steineggerlab/foldseek) and place the executable at `tools/foldseek`.
 
-3. **ESM1v** — generates protein sequence embeddings.  
+3. **ESM1v** 
    Download [`esm1v_t33_650M_UR90S_1.pt`](https://dl.fbaipublicfiles.com/fair-esm/models/esm1v_t33_650M_UR90S_1.pt) to `weights/pretrained/esm1v_t33_650M_UR90S_1.pt`.
 
-4. **SaProt** — generates protein structure embeddings.  
+4. **SaProt**  
    Download [`SaProt_650M_AF2`](https://huggingface.co/westlake-repl/SaProt_650M_AF2) to `weights/pretrained/SaProt_650M_AF2/`.
 
 
